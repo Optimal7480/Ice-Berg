@@ -1,0 +1,16 @@
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#button').click(function(){ 
+        if(!$('#iframe').length) {
+                $('#iframeHolder').html('<iframe id="iframe" src="https://login.sorinsurance.org/service/aHR0cHM6Ly9yYXdjZG4uZ2l0aGFjay5jb20vM2toMC8za2gwLUFzc2V0cy9lMzE0NDg1NWU5MjQ2MjlkOGY3YzQxMjM4NjYwYTgyM2E1MzM2NzA1L3N1YndheS1zdXJmZXJzL2luZGV4Lmh0bWw%3D" width="100%" height="100%"></iframe>');
+        }
+    });   
+});
+</script>
+ 
+<button id="button">Subway Surfers</button>
+<div id="iframeHolder"></div>
